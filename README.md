@@ -1,18 +1,20 @@
-AuthFlow
-A robust authentication system built with modern web technologies, providing secure user management features including JWT authentication, email verification, and password reset functionality.
-Features
+# AuthFlow
 
-User Registration & Login: Secure signup and authentication flows
-Email Verification: OTP-based email verification system
-Password Management: Secure password reset with email confirmation
-JWT Authentication: Token-based authentication with HTTP-only cookies
-Security Best Practices: Password hashing with bcrypt, secure storage of sensitive information
+AuthFlow is a robust authentication system built with modern web technologies, offering secure user management capabilities such as JWT authentication, email verification, and password reset functionality.
 
-Tech Stack
+## Features
 
-Backend: Node.js, Express
-Database: MongoDB
-Frontend: React
-Authentication: JWT, bcrypt
-Email Service: Nodemailer with SMTP
-Styling: Tailwind CSS
+* **User Registration & Login**: Secure signup and login functionality
+* **Email Verification**: OTP-based email verification process
+* **Password Management**: Password reset feature with email confirmation
+* **JWT Authentication**: Token-based authentication using HTTP-only cookies
+* **Security Best Practices**: Implements password hashing with bcrypt and secure handling of sensitive information
+
+## Tech Stack
+
+* **Backend**: Node.js, Express
+* **Database**: MongoDB
+* **Frontend**: React
+* **Authentication**: JWT, bcrypt
+* **Email Service**: Nodemailer with SMTP
+* **Styling**: Tailwind CSS
